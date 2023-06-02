@@ -335,8 +335,6 @@ contract SealToken is Pausable, StandardToken, BlackList {
     address public upgradedAddress;
     bool public deprecated;
 
-    bool public tutorial;
-
     //  The contract can be initialized with a number of tokens
     //  All the tokens are deposited to the owner address
     //
